@@ -10,8 +10,9 @@ use App\Utils\Debug;
 Debug::$log_file = 'log.log';
 Debug::$die = false;
 Debug::$log = true;
-Debug::$active = false;
+Debug::$active = true;
 
 Debug::print('hola mundo');
 Debug::print(['key' => 'value'], new \stdClass, 1);
+
 
